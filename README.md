@@ -1,10 +1,10 @@
 # TLS-Alert-Codes
+
 Chart of TLS Alert codes culled from the internet
 
 
-Alert Code	Alert Message				                Description
-0		        close_notify				                Notifies the recipient that the sender will not send any more messages on this connection.
-1		        no_cipher				                    Indicates that the requested cipher is not supported.
+Alert Code  Alert Message                       Description
+0           no_cipher				                    Indicates that the requested cipher is not supported.
 2		        no_certificate			            	  Sent by the client to indicate that he does not have a proper certificate to fulfill a certificate request from the server.
 4		        bad_certificate				              Indicates that there is something wrong with the certificate received from the peer (e.g. the signature of the certificate is invalid).
 6		        unsupported_certificate_type	      Indicates that the certificate type is not supported
